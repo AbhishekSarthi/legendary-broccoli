@@ -98,17 +98,26 @@ html {
     text-align: center;
     float: left;
 }
-h5,
-h2,
-h3,
+h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-weight: bold;
+}
+
 h4 {
     margin: 0;
     padding: 0;
     line-height: 30px;
+    font-weight: bolder;
 }
-.text-color-light {
+h5 {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
     font-weight: normal;
 }
+
 .quantity {
     text-align: center;
     justify-content: center;
@@ -134,4 +143,13 @@ button {
     width: 80px;
     height: 25px;
     float: left;
+}
+
+#amount {
+    color: darkgreen;
+    font-weight: 900;
+}
+.amount {
+    color: darkgreen;
+    font-weight: 900;
 }

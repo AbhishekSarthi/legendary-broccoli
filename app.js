@@ -8,7 +8,7 @@ let mini2 = document.querySelector('#mini2');
 
 let value = 1;
 let finalAmt = 299;
-console.log(amount.innerHTML);
+
 function increment() {
     value = value + 1;
     quantity.innerHTML = value;
@@ -28,8 +28,6 @@ function setMini1() {
     mini2.classList.remove('green');
     finalAmt = 299;
     finalAmount();
-    // amount.innerHTML = finalAmt;
-    console.log(mini2, mini1);
 }
 
 function setMini2() {
@@ -37,8 +35,6 @@ function setMini2() {
     mini1.classList.remove('green');
     finalAmt = 599;
     finalAmount();
-    // amount.innerHTML = finalAmt;
-    console.log(mini2, mini1);
 }
 
 plus.addEventListener('click', () => increment());
